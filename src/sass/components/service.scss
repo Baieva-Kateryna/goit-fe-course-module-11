@@ -1,0 +1,96 @@
+.service__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-top: 66px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.service__list > li {
+  width: 30%;
+  padding-left: 83px;
+}
+
+.service__heading {
+  color: $color-fon;
+  text-transform: uppercase;
+  line-height: 17px;
+}
+
+.service__item--clock h3::before {
+  content: '';
+  display: block;
+  background: url('../images/clock.svg') no-repeat;
+  width: 32px;
+  height: 31px;
+  -webkit-transform: translateX(-63px) translateY(100%);
+  -ms-transform: translateX(-63px) translateY(100%);
+  transform: translateX(-63px) translateY(100%);
+}
+
+.service__item--line h3::before {
+  content: '';
+  display: block;
+  background: url('../images/line.svg') no-repeat;
+  width: 32px;
+  height: 32px;
+  -webkit-transform: translateX(-63px) translateY(100%);
+  -ms-transform: translateX(-63px) translateY(100%);
+  transform: translateX(-63px) translateY(100%);
+}
+
+.service__item--computer h3::before {
+  content: '';
+  display: block;
+  background: url('../images/computer.svg') no-repeat;
+  width: 32px;
+  height: 28px;
+  -webkit-transform: translateX(-63px) translateY(100%);
+  -ms-transform: translateX(-63px) translateY(100%);
+  transform: translateX(-63px) translateY(100%);
+}
+
+.service__item--book h3::before {
+  content: '';
+  display: block;
+  background: url('../images/book.svg') no-repeat;
+  width: 32px;
+  height: 32px;
+  -webkit-transform: translateX(-63px) translateY(100%);
+  -ms-transform: translateX(-63px) translateY(100%);
+  transform: translateX(-63px) translateY(100%);
+}
+
+.service__item--home h3::before {
+  content: '';
+  display: block;
+  background: url('../images/home.svg') no-repeat;
+  width: 32px;
+  height: 31px;
+  -webkit-transform: translateX(-63px) translateY(100%);
+  -ms-transform: translateX(-63px) translateY(100%);
+  transform: translateX(-63px) translateY(100%);
+}
+
+.service__item--image h3::before {
+  content: '';
+  display: block;
+  background: url('../images/image.svg') no-repeat;
+  width: 32px;
+  height: 32px;
+  -webkit-transform: translateX(-63px) translateY(100%);
+  -ms-transform: translateX(-63px) translateY(100%);
+  transform: translateX(-63px) translateY(100%);
+}
+
+.service__text {
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: $font-section;
+  color: $main-color;
+  line-height: 24px;
+}
